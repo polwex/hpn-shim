@@ -27,7 +27,7 @@ server.tool("search-registry", { query: z.string() }, async ({ query }) => {
           ? `${DEFAULT_URL}:${args.p}`
           : `${DEFAULT_URL}:${DEFAULT_PORT}`;
   //
-  const body = { SearchRegister: query };
+  const body = { SearchRegistry: query };
   try {
     const res = await fetch(url + SERVER_PATH, {
       method: "POST",
