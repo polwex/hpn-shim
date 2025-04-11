@@ -1,11 +1,11 @@
 {
-  "name": "@hyperware/hpn-shim",
-  "version": "1.0.0",
+  "name": "@hyperware-ai/hpn-mcp",
+  "version": "1.0.1",
   "type": "module",
   "description": "Shim to expose hyperware mcp servers to ICP clients",
   "main": "index.js",
-  "bun": {
-    "@hyperware/hpn-shim": "./index.js"
+  "bin": {
+    "@hyperware-ai/hpn-mcp": "./dist/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
