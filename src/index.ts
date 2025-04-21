@@ -14,7 +14,7 @@ const args = yargs(process.argv.slice(2))
     u: { alias: "url", type: "string" },
   })
   .parseSync();
-const SERVER_PATH = "/indexer:hpn:sortugdev.os/api/mcp";
+const SERVER_PATH = "/hpnclient:hpnclient:sortugdev.os/api/mcp";
 const DEFAULT_URL = "http://localhost";
 const DEFAULT_PORT = 8080;
 const url =
